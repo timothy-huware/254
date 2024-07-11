@@ -1,0 +1,46 @@
+2024-07-11 12:22:37,640 - signUpLogger - INFO - kQzDaZsrjlfggZfSkW9pnMY5ECD3,pubsub+test0@email.com,r7eqwre1s7qy
+2024-07-11 12:22:40,719 - signUpLogger - INFO - fr79nlxECjRdYgUYjBJNPoyaMMH2,pubsub+test6@email.com,82190me1s9np
+2024-07-11 12:22:42,050 - signUpLogger - INFO - qF58MwKE52UUrmS0hvyWlyHJCFD3,pubsub+test9@email.com,-ty9mn8du1vq
+2024-07-11 12:22:44,105 - signUpLogger - INFO - fSYOddarQVXiiLp19eA30NLgxPq2,pubsub+test5@email.com,-w67mzxdlhuv
+2024-07-11 12:22:48,841 - signUpLogger - INFO - vQSU3GJwEIbJmkRHJjY3d9pIz0z2,pubsub+test15@email.com,81usuwd9pho
+2024-07-11 12:22:49,714 - signUpLogger - INFO - 4o97X2uC2NMI6AYHf9TsoYWmGUB2,pubsub+test16@email.com,-9ezww9e14oqx
+2024-07-11 12:22:52,568 - signUpLogger - INFO - NFaL4ddaaAZ6p3U7RiUs8DhuX3B2,pubsub+test20@email.com,sbd4c4dy13r
+2024-07-11 12:22:55,507 - signUpLogger - INFO - YO26aJs5T5V3q9bgNqemXgUfUSE2,pubsub+test22@email.com,-f8z69ndwqg1
+2024-07-11 12:22:58,951 - signUpLogger - INFO - TzE1KtmTVpZKVbE19uHIyfxjg4l2,pubsub+test23@email.com,q31qeke1s8ts
+2024-07-11 12:22:59,641 - signUpLogger - INFO - UNMdzgUT9iaZHoRFpanumZAIw473,pubsub+test28@email.com,-ooyl7cdktld
+2024-07-11 12:23:01,359 - signUpLogger - INFO - qUmGviIxBYVww2tSglc4m6V4EDa2,pubsub+test26@email.com,mhft0ydjl9b
+2024-07-11 12:23:04,024 - signUpLogger - INFO - loBAwrWya8NF0qIfsjyvt2TaLnl1,pubsub+test33@email.com,-4pckr3dxvpv
+2024-07-11 12:23:08,097 - signUpLogger - INFO - 2BpukLVxqTdnNP8ohV4Bif9loNs2,pubsub+test41@email.com,-zi6ma0duzox
+2024-07-11 12:23:10,381 - signUpLogger - INFO - YFVA5GI57egEB1sEj8ZRQ2L3Vkk2,pubsub+test38@email.com,63xu0qe1scpq
+2024-07-11 12:23:12,190 - signUpLogger - INFO - bEhyweIz2uSOISr0iEOuNW1cSNm1,pubsub+test43@email.com,5txcove1s9i7
+2024-07-11 12:23:16,419 - signUpLogger - INFO - k1QhCMQSmmVtiWkn99hMpo9E2eq1,pubsub+test44@email.com,-jynf1ce1s6ph
+2024-07-11 12:23:18,230 - signUpLogger - INFO - ttTSRbls8UWHL3fQ6upbLHyfrXl1,pubsub+test46@email.com,-6dk4l7dmp7y
+2024-07-11 12:23:20,912 - signUpLogger - INFO - E4h2bAUWQYUGvdF30qkvIvKR1Jd2,pubsub+test55@email.com,7hvx1xdz7ct
+2024-07-11 12:23:22,687 - signUpLogger - INFO - UYK2KQj3ZLdRVOEoYMqkdq7lmc63,pubsub+test52@email.com,-tebejhdb21t
+2024-07-11 12:23:25,559 - signUpLogger - INFO - m2JVMnopt2OKutpWUNaKmKj7L2H2,pubsub+test60@email.com,sl269xe1fd9t
+2024-07-11 12:23:27,532 - signUpLogger - INFO - qd5JLQtLjZaO0DYOdR9vkxc8gyb2,pubsub+test63@email.com,-ep4u0ydag0a
+2024-07-11 12:23:29,620 - signUpLogger - INFO - SX6ZCsY6qTakTeTxtl3JTl0IF9V2,pubsub+test62@email.com,-y4iixfdljo0
+AcknowledgeError when lease-modacking a message.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/google/cloud/pubsub_v1/subscriber/_protocol/streaming_pull_manager.py", line 1028, in _send_lease_modacks
+    req.future.result()
+  File "/usr/local/lib/python3.12/site-packages/google/cloud/pubsub_v1/subscriber/futures.py", line 125, in result
+    return super().result(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+google.cloud.pubsub_v1.subscriber.exceptions.AcknowledgeError: None AcknowledgeStatus.INVALID_ACK_ID
+2024-07-11 12:23:32,318 - signUpLogger - INFO - HyCsp3jF4lQzFEzve3JYNCCFXwW2,pubsub+test68@email.com,hros2fdjv9i
+2024-07-11 12:23:35,473 - signUpLogger - INFO - CeVEAViQXJULXvfRQ9Mj2HPTrzz2,pubsub+test71@email.com,-jynf1ce1s6ri
+2024-07-11 12:23:37,557 - signUpLogger - INFO - MRqpSED6u6Q1ycAUEzOVpkpWUPO2,pubsub+test70@email.com,-77fve3davci
+2024-07-11 12:23:39,877 - signUpLogger - INFO - 09lb7UiPsWYkhTexd4ORicCpy172,pubsub+test77@email.com,5k496ldb47o
+2024-07-11 12:23:41,509 - signUpLogger - INFO - ND3YpUPJNaNnKDFbSS2LOgFHdAT2,pubsub+test74@email.com,y4ydh6datv9
+2024-07-11 12:23:45,575 - signUpLogger - INFO - Yw3DDH0frzd1Vblr11YsG1HmdhQ2,pubsub+test84@email.com,ats4ogdf5lc
+2024-07-11 12:23:46,944 - signUpLogger - INFO - aVn06MWItpPISPzgo9I1oU0X7Jk1,pubsub+test82@email.com,-mguraxdxt7q
+2024-07-11 12:23:50,261 - signUpLogger - INFO - CuzYUAOrnxZOY0RbAtdGcAI4kVd2,pubsub+test91@email.com,-mqr5pqckbq
+2024-07-11 12:23:53,344 - signUpLogger - INFO - azIMTAQSpeRacYW6GmkBQXXN58z1,pubsub+test89@email.com,-4pckr3dxvxw
+2024-07-11 12:23:54,522 - signUpLogger - INFO - GPSigEmKaWhkrxpzC4YEBAQlkdo1,pubsub+test93@email.com,q2y0f8e1s71q
+2024-07-11 12:23:59,163 - signUpLogger - INFO - Znfg8JhQ25Zl7ltlZDgXENwpyzO2,pubsub+test96@email.com,-dlf0qpdad9i
