@@ -1,0 +1,16 @@
+Explaination:
+https://stackoverflow.com/questions/77138981/how-to-handle-acknowledging-a-pubsub-streampull-subscription-message
+
+AcknowledgeError when lease-modacking a message.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/google/cloud/pubsub_v1/subscriber/_protocol/streaming_pull_manager.py", line 1028, in _send_lease_modacks
+    req.future.result()
+  File "/usr/local/lib/python3.12/site-packages/google/cloud/pubsub_v1/subscriber/futures.py", line 125, in result
+    return super().result(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+google.cloud.pubsub_v1.subscriber.exceptions.AcknowledgeError: None AcknowledgeStatus.INVALID_ACK_ID
