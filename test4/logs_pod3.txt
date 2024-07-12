@@ -1,0 +1,1 @@
+2024-07-12 09:33:40,256 - signUpLogger - INFO - pcFO19FBUDUjJoMOnYeXkWa25dD2,pubsub+test0@email.com,3mcsdye1w2p2, message id: 10231497132324038, wait time: 600
