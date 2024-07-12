@@ -6,12 +6,14 @@ def callback(message: pubsub_v1.subscriber.message.Message) -> None:
     rand_time = random.randint(60, 100)
     time.sleep(rand_time)
 
-    localID = data["protoPayload"]["response"]["localId"]
-    email = data["protoPayload"]["response"]["email"]
+    type = "protoPayload" if "protoPayload" in data else "jsonPayload"
+
+    localID = data[type]["response"]["localId"]
+    email = data[type]["response"]["email"]
     insertID = data["insertId"]
 
     logger.info(
-        f"{localID},{email},{insertID}, waited for {rand_time}s, message id: {message.message_id}"
+        f"{localID},{email},{insertID}, message id: {message.message_id}, wait time: {rand_time}"
     )
 
     ack_future = message.ack_with_response()

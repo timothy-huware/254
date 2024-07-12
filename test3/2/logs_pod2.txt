@@ -1,0 +1,6 @@
+Ack for message 11711902491813679 successful.
+2024-07-12 07:56:09,283 - signUpLogger - INFO - huRKcyfkHbRmHZvKAGLNspw3q8J3,pubsub+test8@email.com,-p8du8idonx8, message id: 11712913547619658, wait time: 81
+Ack for message 11712913547619658 successful.
+2024-07-12 07:56:10,417 - signUpLogger - INFO - dtNWD48S37ThQYVgyWbNFoHbuTS2,pubsub+test3@email.com,vculhlc9mo, message id: 11713080872515669, wait time: 88
+Ack for message 11713080872515669 successful.
+2024-07-12 07:56:18,143 - signUpLogger - INFO - rSazjt3CdZVnBZ8HP5juX2Jvu8u2,pubsub+test5@email.com,-9paacvdp5xm, message id: 11712335362947976, wait time: 95
