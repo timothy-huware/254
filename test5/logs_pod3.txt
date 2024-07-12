@@ -1,0 +1,55 @@
+ Top-level exception occurred in callback while processing a message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/google/cloud/pubsub_v1/subscriber/_protocol/streaming_pull_manager.py", line 126, in _wrap_callback_errors
+    callback(message)
+  File "/app/app.py", line 31, in callback
+    sys.exit(0)
+SystemExit: 0
+
+I have data
+The message id is 11705518915359000 with ack id PkVTRFAGFixdRkhRNxkIaFEOT14jPzUgKEUSCCBvDD1CWRtiaFxcdQdQBBkjemMnY18aVQhFWX53awOpvKjYQwdhLzhzfGZ1b18SCQtEVn1aUhsNaHTsocaf4NHRX3tJUv7H9YZzc86mysk_Zic9WxJLLD5-Ji9FQV5AEkwtGkRJUytDCypYEU4EISE-MA
+
+Error in queue callback worker: Cannot invoke RPC on closed channel!
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/google/cloud/pubsub_v1/subscriber/_protocol/helper_threads.py", line 118, in __call__
+    self._callback(items)
+  File "/usr/local/lib/python3.12/site-packages/google/cloud/pubsub_v1/subscriber/_protocol/dispatcher.py", line 190, in dispatch_callback
+    self.nack(nack_requests)
+  File "/usr/local/lib/python3.12/site-packages/google/cloud/pubsub_v1/subscriber/_protocol/dispatcher.py", line 405, in nack
+    self.modify_ack_deadline(
+  File "/usr/local/lib/python3.12/site-packages/google/cloud/pubsub_v1/subscriber/_protocol/dispatcher.py", line 347, in modify_ack_deadline
+    _, requests_to_retry = self._manager.send_unary_modack(
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/google/cloud/pubsub_v1/subscriber/_protocol/streaming_pull_manager.py", line 719, in send_unary_modack
+    self._client.modify_ack_deadline(
+  File "/usr/local/lib/python3.12/site-packages/google/pubsub_v1/services/subscriber/client.py", line 1487, in modify_ack_deadline
+    rpc(
+  File "/usr/local/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/usr/local/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/usr/local/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 76, in error_remapped_callable
+    return callable_(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/grpc/_channel.py", line 1178, in __call__
+    ) = self._blocking(
+        ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/grpc/_channel.py", line 1146, in _blocking
+    call = self._channel.segregated_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/python/grpcio/grpc/_cython/_cygrpc/channel.pyx.pxi", line 559, in grpc._cython.cygrpc.Channel.segregated_call
+  File "src/python/grpcio/grpc/_cython/_cygrpc/channel.pyx.pxi", line 415, in grpc._cython.cygrpc._segregated_call
+  File "src/python/grpcio/grpc/_cython/_cygrpc/channel.pyx.pxi", line 419, in grpc._cython.cygrpc._segregated_call
+ValueError: Cannot invoke RPC on closed channel!

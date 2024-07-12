@@ -1,0 +1,20 @@
+Top-level exception occurred in callback while processing a message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/google/cloud/pubsub_v1/subscriber/_protocol/streaming_pull_manager.py", line 126, in _wrap_callback_errors
+    callback(message)
+  File "/app/app.py", line 31, in callback
+    sys.exit(0)
+SystemExit: 0
+
+I have data
+The message id is 11713153003152425 with ack id MD5FU0RQBhYsXUZIUTcZCGhRDk9eIz81IChFEgggbxYtQlMYYmhcXHUHUAQZI3pidWJTQVMIRVl-d2sD5L6o2EMHYS84c3xmdGlbFgICRVB_WlkfD2107KHGn-DR0V97TlKzxfWGc3O18u9gZic9WxJLLD5-Ji9FQV5AEkwtGkRJUytDCypYEU4EISE-
+I have data
+The message id is 11705518915359000 with ack id MD5FU0RQBhYsXUZIUTcZCGhRDk9eIz81IChFEgggbww9QlkbYmhcXHUHUAQZI3pjJ2NfGlUIRVl-d2sDwL6o2EMHYS84c3xmdW9fEgkLRFZ9WlIbDWh07KHGn-DR0V97TlKUxfWGc3PQqqINZic9WxJLLD5-Ji9FQV5AEkwtGkRJUytDCypYEU4EISE-
+
+Top-level exception occurred in callback while processing a message
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/google/cloud/pubsub_v1/subscriber/_protocol/streaming_pull_manager.py", line 126, in _wrap_callback_errors
+    callback(message)
+  File "/app/app.py", line 31, in callback
+    sys.exit(0)
+SystemExit: 0
