@@ -2,11 +2,14 @@ def callback(message: pubsub_v1.subscriber.message.Message) -> None:
     data = message.data.decode("UTF-8")
     data = json.loads(data)
 
-    localID = data["protoPayload"]["response"]["localId"]
-    email = data["protoPayload"]["response"]["email"]
+    type = "protoPayload" if "protoPayload" in data else "jsonPayload"
+
+    localID = data[type]["response"]["localId"]
+    email = data[type]["response"]["email"]
     insertID = data["insertId"]
 
-    logger.info(f"{localID},{email},{insertID}")
+    logger.info(f"{localID},{email},{insertID}, message id: {message.message_id}")
+
     ack_future = message.ack_with_response()
 
     try:

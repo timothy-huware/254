@@ -1,0 +1,69 @@
+2024-07-12 06:47:24,199 - signUpLogger - INFO - jk2nwrC8o7Q0GHLamUEZ3m1uRci1,pubsub+test0@email.com,-cqyfkrdi974, message id: 11712298150827556
+Ack for message 11712298150827556 successful.
+2024-07-12 06:47:26,790 - signUpLogger - INFO - e2kQMKoFi5PaYKAjf4xL7EwNwEC3,pubsub+test2@email.com,-6nk96qd1me0, message id: 11712059435816651
+Ack for message 11712059435816651 successful.
+2024-07-12 06:47:30,570 - signUpLogger - INFO - VsXPQhMB2BPZNxG9zQghmMIOEEq2,pubsub+test7@email.com,-at6vode1vmna, message id: 11711378634393648
+2024-07-12 06:47:30,571 - signUpLogger - INFO - mz3RGF18ayg6OBJXi03g9ZBRbjI3,pubsub+test9@email.com,-2hw9uadiu4d, message id: 11712070905014551
+2024-07-12 06:47:30,572 - signUpLogger - INFO - TlzGTLqtXvd2faf4IJ7dUBbshan2,pubsub+test10@email.com,1ob44md3hnx, message id: 11711901642839165
+Ack for message 11711378634393648 successful.
+Ack for message 11712070905014551 successful.
+Ack for message 11711901642839165 successful.
+2024-07-12 06:47:33,482 - signUpLogger - INFO - OHcqTib5K7TYqmUzzzj7dX6tqhf1,pubsub+test11@email.com,-fiu3igd2z7f, message id: 11711419412114911
+Ack for message 11711419412114911 successful.
+2024-07-12 06:47:38,164 - signUpLogger - INFO - DtZ4TNg4IidNF5jGxZlXr95jQJg2,pubsub+test18@email.com,-ikuyiee1vnv3, message id: 11711494699279312
+Ack for message 11711494699279312 successful.
+2024-07-12 06:47:39,502 - signUpLogger - INFO - OYGsCpWlChMaypClpJaRkP0YyTF2,pubsub+test16@email.com,hrcrs6dgqkw, message id: 11711949991459187
+Ack for message 11711949991459187 successful.
+2024-07-12 06:47:42,270 - signUpLogger - INFO - zbsLH72XbdQroux01pAaBn3ZQWn1,pubsub+test23@email.com,-9z714ydxfzs, message id: 11711806999735226
+Ack for message 11711806999735226 successful.
+2024-07-12 06:47:44,317 - signUpLogger - INFO - esfnYD0jDbUDcE9lNwkRUaHiFtF2,pubsub+test19@email.com,-fiu3igd2z7u, message id: 11711921851500974
+Ack for message 11711921851500974 successful.
+2024-07-12 06:47:48,537 - signUpLogger - INFO - fhmwbVH2BrZ3S0JZy3q0RmtbXJc2,pubsub+test29@email.com,r7eqwre1vovt, message id: 11711788190451773
+Ack for message 11711788190451773 successful.
+2024-07-12 06:47:50,927 - signUpLogger - INFO - BfCKT0xEmNMUWFJj0htZGBBBqri2,pubsub+test30@email.com,-d0vqxzd5xcx, message id: 11711371749755437
+Ack for message 11711371749755437 successful.
+2024-07-12 06:47:52,978 - signUpLogger - INFO - 9q1iKvuu9QWtD9Lk1IO5LV5xdJx1,pubsub+test34@email.com,-9fcuhddp5hs, message id: 11712258059145321
+Ack for message 11712258059145321 successful.
+2024-07-12 06:47:55,744 - signUpLogger - INFO - 1bScliFuSIc4DiXP6TfrCEI1Kho2,pubsub+test32@email.com,-fiu3igd2z8m, message id: 11712025497609621
+2024-07-12 06:47:55,744 - signUpLogger - INFO - A1w9bfLFegbKO5f96UuxInUuqxE2,pubsub+test36@email.com,-zi3bk4dxoqo, message id: 11712258456655420
+Ack for message 11712258456655420 successful.
+Ack for message 11712025497609621 successful.
+2024-07-12 06:47:57,010 - signUpLogger - INFO - IHhsUsz2YeSboUtsf8iMHM1Adj22,pubsub+test42@email.com,hrcrs6dgqmv, message id: 11712285868612372
+Ack for message 11712285868612372 successful.
+2024-07-12 06:48:01,231 - signUpLogger - INFO - gEAIe8caiVhTOCIpmrdTRYrxjYy2,pubsub+test40@email.com,-3vkmu4d67o2, message id: 10231219850189184
+Ack for message 10231219850189184 successful.
+2024-07-12 06:48:03,544 - signUpLogger - INFO - 4iCMgDTlEobstDXjFFKN30SJFZ12,pubsub+test44@email.com,-7ra829dbz7i, message id: 11711502330353399
+Ack for message 11711502330353399 successful.
+2024-07-12 06:48:06,171 - signUpLogger - INFO - HyuEmsJzA6c5kRWD9VqWs8u9hLh1,pubsub+test51@email.com,-suiuytdyjzd, message id: 11711359929665697
+Ack for message 11711359929665697 successful.
+2024-07-12 06:48:07,944 - signUpLogger - INFO - jxNqCZyFGTcJxvNu8XLRKoAcVpD3,pubsub+test50@email.com,k9dwpaduprc, message id: 11712775134533994
+Ack for message 11712775134533994 successful.
+2024-07-12 06:48:11,994 - signUpLogger - INFO - 2eflsLIDHNO4vmJ9LQ4iazjDpF93,pubsub+test59@email.com,pj2wtqe10h1v, message id: 11710140269055969
+Ack for message 11710140269055969 successful.
+2024-07-12 06:48:13,369 - signUpLogger - INFO - uKLyIc1okCUGZcdJfdGmh7oZR4m2,pubsub+test56@email.com,uiy4xie17rcw, message id: 11712724403070525
+Ack for message 11712724403070525 successful.
+2024-07-12 06:48:14,715 - signUpLogger - INFO - wOSl4s9zMCglgjVok6ZIKun5KVc2,pubsub+test61@email.com,-bnfkx8cj7m, message id: 11711231730607935
+Ack for message 11711231730607935 successful.
+2024-07-12 06:48:18,551 - signUpLogger - INFO - ZDEZutS2fpUPrzxuIkEzo9UdCzO2,pubsub+test63@email.com,45uw2pd2ppq, message id: 11712527096826192
+Ack for message 11712527096826192 successful.
+2024-07-12 06:48:24,491 - signUpLogger - INFO - HlXaS8sh0qZRyXqzFAgDQpnyzZd2,pubsub+test66@email.com,1y0vute14ul4, message id: 11712201695548948
+Ack for message 11712201695548948 successful.
+2024-07-12 06:48:24,894 - signUpLogger - INFO - 8P8uoVVst0TGD0ZHVL13IpiwKRY2,pubsub+test68@email.com,-fj4dqoe1vmbt, message id: 11712701852975298
+Ack for message 11712701852975298 successful.
+2024-07-12 06:48:27,707 - signUpLogger - INFO - keCTm0qhG5RcZPC4RkNefnup27c2,pubsub+test67@email.com,-lwvr4hdwtus, message id: 11710615611285640
+Ack for message 11710615611285640 successful.
+2024-07-12 06:48:30,635 - signUpLogger - INFO - GivEHbkpYsc9muvi3msQI0lXjjg1,pubsub+test77@email.com,qxe7yze1vpqx, message id: 11710755704873771
+Ack for message 11710755704873771 successful.
+2024-07-12 06:48:32,154 - signUpLogger - INFO - BopmML6UssPRkv2s8WG4xzhZD0O2,pubsub+test74@email.com,qdf43qdg8a1, message id: 11711583983332953
+Ack for message 11711583983332953 successful.
+2024-07-12 06:48:34,059 - signUpLogger - INFO - Lpt63XSv6TXApZdH3P5aXHjsAzC2,pubsub+test82@email.com,-xugclgd3pmh, message id: 11711983115824040
+Ack for message 11711983115824040 successful.
+2024-07-12 06:48:40,726 - signUpLogger - INFO - aIlalHZQVudeSxRGtfqEdgz4aoT2,pubsub+test85@email.com,-kt0wq9e1vp5d, message id: 11711958722812897
+Ack for message 11711958722812897 successful.
+2024-07-12 06:48:44,893 - signUpLogger - INFO - 3N6fR390bbZ1EnAJHZ8IhI3roZx2,pubsub+test87@email.com,5k0fopd31rq, message id: 11712170250326479
+Ack for message 11712170250326479 successful.
+2024-07-12 06:48:46,948 - signUpLogger - INFO - uLcPcNpooncIRjxKBtudq3diYvx1,pubsub+test88@email.com,-mh2bepe1vn18, message id: 11711649329659906
+Ack for message 11711649329659906 successful.
+2024-07-12 06:48:48,765 - signUpLogger - INFO - Pb5a36ySeZbDeEsfD5yf13vPcTj2,pubsub+test93@email.com,-wg87q9d2uws, message id: 11711940932599446
+Ack for message 11711940932599446 successful.
+2024-07-12 06:48:51,937 - signUpLogger - INFO - ZsL2O1gd1tSnkPGVnfGSMdTAbmI3,pubsub+test99@email.com,udsqed7rlm, message id: 11712093235886964
